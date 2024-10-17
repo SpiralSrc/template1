@@ -68,11 +68,11 @@ li {
 a {
   color: var(--text-color1);
   cursor: pointer;
+ transition: var(--transition); 
 }
 a:hover {
   font-weight: 600;
   color: var(--text-color2);
-  transition: var(--transition);
 }
 
 .btn {
@@ -81,13 +81,14 @@ a:hover {
   background: rgb(38, 39, 39);
   color: var(--text-color1);
   border: 2px solid rgb(38, 39, 39);
+  transition: var(--transition);
 }
 .btn:hover {
   background: transparent;
   border: 2px solid rgb(38, 39, 39);
   color: rgb(38, 39, 39);
   font-weight: 700;
-  transition: var(--transition);
+  
 }
 
 .hidden {
@@ -294,7 +295,6 @@ a:hover {
 
 .package-detail a {
   font-size: 1rem !important;
-  transition: none !important;
 }
 
 /* Extra */
